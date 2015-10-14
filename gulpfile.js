@@ -1,7 +1,5 @@
 'use strict';
 
-'use strict';
-
 var gulp         = require('gulp');
 
 // General dependencies
