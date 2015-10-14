@@ -1,0 +1,30 @@
+{
+  "name": "logical-prop-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmds/logical-props-demo.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Barney Scott <barney@pushing-pixels.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmds/logical-props-demo/issues"
+  },
+  "homepage": "https://github.com/bmds/logical-props-demo#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.6",
+    "postcss-logical-props": "0.0.5"
+  }
+}

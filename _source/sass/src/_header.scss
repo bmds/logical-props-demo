@@ -1,0 +1,21 @@
+.header {
+	background: $C-Green;
+	padding:    $D-Gutter;
+	position:   relative;
+
+	&__title {
+		font-size:   1.125rem;
+		font-weight: normal;
+		margin:      0;
+	}
+
+	&__add-task {
+		@extend %button;
+
+		font-size:        1.5rem;
+		margin-top:       -0.9375rem;
+		offset-block-end: $D-Gutter;
+		position:         absolute;
+		top:              50%;
+	}
+}

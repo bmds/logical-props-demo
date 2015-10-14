@@ -1,0 +1,29 @@
+$Progress-D-Radius: .125rem;
+
+.progress {
+	background:    $C-Light-Blue;
+	height:        $D-Gutter-Half;
+	margin-bottom: $D-Gutter;
+	position:      relative;
+
+	&__marker {
+		background:         $C-Orange;
+		border-radius:      $Progress-D-Radius;
+		height:             100%;
+		position:           absolute;
+		offset-block-start: 0;
+		width:              20%;
+	}
+
+	&__handle {
+		background:         $C-Orange;
+		border-radius:      50%;
+		height:             $D-Gutter;
+		margin-block-start: -$D-Gutter-Half;
+		margin-top:         -$D-Gutter-Half;
+		position:           absolute;
+		offset-block-end:   0;
+		top:                50%;
+		width:              $D-Gutter;
+	}
+}

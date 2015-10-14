@@ -1,0 +1,19 @@
+.footer {
+	background: $C-Dark-Blue;
+	box-shadow: $S-Shadow;
+	padding: $D-Gutter;
+	position: relative;
+
+	&__status {
+		line-height: 1.875rem;
+	}
+
+	&__mark-complete {
+		@extend %button;
+
+		bottom:           $D-Gutter;
+		font-size:        1.5rem;
+		offset-block-end: $D-Gutter;
+		position:         absolute;
+	}
+}

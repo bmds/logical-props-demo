@@ -1,0 +1,8 @@
+{
+    "root":        "./",
+    "asset_raw":   "_source/",
+    "asset_built": "build/_client/",
+    "build":       "build/",
+    "sass":        "sass/",
+    "styles":      "styles/"
+}

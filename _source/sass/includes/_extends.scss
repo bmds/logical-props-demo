@@ -1,0 +1,22 @@
+%button {
+	background:      transparent;
+	border:          1px solid $C-Cream;
+	border-radius:   .25rem;
+	color:           $C-Cream;
+	display:         inline-bock;
+	font-weight:     bold;
+	line-height:     1.875rem;
+	padding:         0;
+	text-align:      center;
+	text-decoration: none;
+	transition:      all .3s ease;
+	width:           1.875rem;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background:   $C-Cream;
+		border-color: $C-Orange;
+		color:        $C-Orange;
+	}
+}

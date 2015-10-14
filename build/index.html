@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="/_client/styles/main.ltr.css" />
+
+		<title>index</title>
+	</head>
+	<body dir="ltr">
+		<main class="app">
+			<header class="header">
+				<h1 class="header__title">My Tasklist</h1>
+				<a href="/" class="header__add-task">+</a>
+			</header>
+			<ol class="tasklist">
+				<li class="tasklist__task tasklist__task--complete">
+					<span class="tasklist__task-title">Build PostCSS plugin</span>
+					<span class="tasklist__task-status">✓</span>
+				</li>
+				<li class="tasklist__task tasklist__task--complete">
+					<span class="tasklist__task-title">Push to NPM</span>
+					<span class="tasklist__task-status">✓</span>
+				</li>
+				<li class="tasklist__task tasklist__task--current">
+					<span class="tasklist__task-title">Demo plugin</span>
+					<span class="tasklist__task-status">✓</span>
+				</li>
+				<li class="tasklist__task">
+					<span class="tasklist__task-title">....</span>
+					<span class="tasklist__task-status">✓</span>
+				</li>
+				<li class="tasklist__task">
+					<span class="tasklist__task-title">Profit!</span>
+					<span class="tasklist__task-status">✓</span>
+				</li>
+			</ol>
+			<footer class="footer">
+				<div class="progress">
+					<div class="progress__marker"></div>
+				</div>
+				<span class="footer__status">2 / 5 tasks complete</span>
+				<button class="footer__mark-complete">✓</button>
+			</footer>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+.tasklist {
+	$task-root: #{&};
+
+	background: $C-Mid-Blue;
+	box-shadow: $S-Shadow;
+	font-size:  .875rem;
+	list-style: none;
+	margin:     0;
+	padding:    $D-Gutter;
+
+	&__task {
+
+		border-top: 1px solid $C-Light-Blue;
+		padding:    $D-Gutter;
+		position:   relative;
+
+		&--current {
+			background: $C-Light-Blue;
+		}
+
+		&--complete {
+			background:       $C-Dark-Blue;
+			border-top-color: $C-Mid-Blue;
+		}
+
+		&:first-child {
+			border-top: 0;
+		}
+	}
+
+	&__task-status {
+		color:            $C-Dark-Blue;
+		offset-block-end: $D-Gutter;
+		position:         absolute;
+		text-decoration:  none;
+		top:              $D-Gutter;
+
+		#{$task-root}__task--current & {
+			color: $C-Cream;
+		}
+
+		#{$task-root}__task--complete & {
+			color: $C-Orange;
+		}
+	}
+
+}
